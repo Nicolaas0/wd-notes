@@ -9,28 +9,38 @@
   <body>
     <h1>Form Demo</h1>
 
-    <form action="">
+    <form action="/tacos">
       <div>
         <label for="user">Username</label>
-        <input id="user" type="text" placeholder="Text Input" />
+        <input id="user" type="text" placeholder="Text Input" name="username" />
       </div>
       <div>
         <label for="pass">Password</label>
-        <input id="pass" type="password" placeholder="Password Input" />
+        <input id="pass" type="password" placeholder="Password Input"Name ="password" />
       </div>
       <div>
         <label for="color">Color Picker</label>
-        <input id="color" type="color" />
+        <input id="color" type="color"Name ="color" />
       </div>
       <div>
         <label for="number">Number</label>
-        <input id="number" type="number" />
+        <input id="number" type="number"Name ="number" />
       </div>
       <div>
         <label for="cb">Checkbox</label>
-        <input id="cb" name="cb" type="checkbox" />
+        <input id="cb" name="cb" type="checkbox"Name ="checkbox" />
       </div>
       <button>Submit</button>
+    </form>
+    <hr>
+    <form action="https://www.reddit.com/search/">
+    <input type="text" name="q">
+    <button>Submit</button>
+    </form>
+    <hr>
+    <form action="https://www.google.com/search/">
+    <input type="text" name="q">
+    <button>Submit</button>
     </form>
   </body>
 </html>
