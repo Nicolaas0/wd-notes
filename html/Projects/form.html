@@ -10,11 +10,11 @@
     <h1>Form Demo</h1>
 
     <form action="/tacos">
-      <div>
+      <p>
         <label for="user">Username</label>
         <input id="user" type="text" placeholder="Text Input" name="username" />
-      </div>
-      <div>
+      </p>
+      <p>
         <label for="pass">Password</label>
         <input
           id="pass"
@@ -22,44 +22,47 @@
           placeholder="Password Input"
           name="password"
         />
-      </div>
-      <div>
+      </p>
+      <p>
         <label for="color">Color Picker</label>
         <input id="color" type="color" name="color" />
-      </div>
-      <div>
+      </p>
+      <p>
         <label for="number">Number</label>
         <input id="number" type="number" name="number" />
-      </div>
-      <div>
+      </p>
+      <p>
         <label for="cb">Checkbox</label>
         <input id="cb" name="cb" type="checkbox" name="checkbox" />
-      </div>
+      </p>
       <button>Submit</button>
     </form>
     <hr />
+    <h2>Reddit Search</h2>
     <form action="https://www.reddit.com/search/">
       <input type="text" name="q" />
       <button>Submit</button>
     </form>
     <hr />
+    <h2>Google Search</h2>
     <form action="https://www.google.com/search/">
       <input type="text" name="q" />
       <button>Submit</button>
     </form>
     <hr />
+    <h2>Radio, Checkbox,Range,Text Area, and Select</h2>
     <form action="/tos">
       <input type="checkbox" name="agree_tos" id="tos" checked />
       <label for="tos"> I Agree</label>
-      <div>
+      <p>
         <label for="s">S:</label>
         <input type="radio" value="s" name="size" id="s" />
         <label for="m">M:</label>
         <input type="radio" value="m" name="size" id="m" />
         <label for="l">L:</label>
         <input type="radio" value="l" name="size" id="l" />
-      </div>
-      <div>
+      
+      <p>
         <label for="meal">What do you want for the meal?</label>
         <select name="meal" id="meal">
           <option value="none" selected>Select the food</option>
@@ -67,16 +70,16 @@
           <option value="chicken">Chicken</option>
           <option value="beef">Beef</option>
         </select>
-      </div>
-      <div>
+      </p>
+      <p>
         <label for="cheese">How much cheese do you want?</label>
         <input type="range" name="cheese" id="cheese" min="1" max="10" >
-      </div>
-      <div>
+      </p>
+      <p>
         <label for="request">Any Special request?</label>
         <br>
         <textarea name="request" id="request" cols="30" rows="10" placeholder="Type here"></textarea>
-      </div>
+      </p>
       <button>Submit</button>
     </form>
   </body>
