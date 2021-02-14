@@ -7,4 +7,12 @@ There are Background and Background-color, both can change background color, but
 <!-- 63. Color Systems -->
 How to get colors:
 1. Named colors : Easy, but limited. There are 140 named colors.
-2.
+2. RGB (Red, Green, Blue): Syntax = (R, G, B), range of the color is 0-255.
+    Example :
+    (255, 0, 0) = Red.
+    (255, 0, 255) = Purple. (Red + Blue).
+    (255, 255, 0) = Yellow. (Red + Green).
+    (0, 0, 0) = Black.
+* Light colors = max the colors.
+* Darker colors = min / lower the colors. 
+3. Hex (Hexadecimal): Syntax = #ff(Red)ff(Green)ff(Blue). ff = 255, so it can be read like RGB syntax.
