@@ -16,3 +16,10 @@ How to get colors:
 * Light colors = max the colors.
 * Darker colors = min / lower the colors. 
 3. Hex (Hexadecimal): Syntax = #ff(Red)ff(Green)ff(Blue). ff = 255, so it can be read like RGB syntax.
+
+<!-- 63. Common Text Properties -->
+1. Text-align : Align all text to the destined positions.
+2. Font-weight : Make text bolder or lighter, depends the value.
+3. Text-decoration : Give text decoration, like underline, bullets, etc.
+4. line-height : Give amount value of height for each sentence.
+5. letter-spacing : Give amount value of spacing for each character.
