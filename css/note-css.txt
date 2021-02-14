@@ -1,0 +1,10 @@
+<!-- 62. Color & Background Color -->
+Color = to change text Color.
+Background Color = to change background Color.
+
+There are Background and Background-color, both can change background color, but Background-color more spesific.
+
+<!-- 63. Color Systems -->
+How to get colors:
+1. Named colors : Easy, but limited. There are 140 named colors.
+2.
