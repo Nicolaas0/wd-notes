@@ -1,3 +1,4 @@
+/* Element Selector */
 body{
     background-color: #2e294e;
 }
@@ -21,4 +22,19 @@ span{
 
 a{
     color: #FFF;
+}
+
+/* Class Selector */
+.sec{
+    text-transform: capitalize;
+}
+
+/* ID Selector */
+#btn{
+    color: #FFF;
+}
+
+/* Descendent Selector */
+footer a{
+    color: #f46036;
 }
