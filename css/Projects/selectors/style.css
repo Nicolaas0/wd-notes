@@ -38,3 +38,15 @@ a{
 footer a{
     color: #f46036;
 }
+
+/* Adjacent Selector */
+/* element1 + element2, it will select the element next to the first element */
+h2 + button{
+    background-color: olive;
+}
+
+/* Direct Child Selector */
+/* It will select the child of the first element */
+section > span{
+    color: black;
+}
