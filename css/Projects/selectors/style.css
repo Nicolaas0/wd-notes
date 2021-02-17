@@ -50,3 +50,8 @@ h2 + button{
 section > span{
     color: black;
 }
+
+/* Attribute Selector */
+a[href*="google"]{
+    color: tomato;
+}
