@@ -73,3 +73,21 @@ button:active{
 section:nth-of-type(2n){ 
     background-color:rgb(60, 130, 187);
 }
+
+/* Pseudo Elements */
+section::first-letter{
+    color: antiquewhite;
+    font-size: 20px;
+}
+
+main > p{
+    color: #f46036;
+}
+
+p::first-line{
+    background-color: red;
+}
+
+p::selection{
+    background-color:white;
+}
