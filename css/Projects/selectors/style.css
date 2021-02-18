@@ -55,3 +55,21 @@ section > span{
 a[href*="google"]{
     color: tomato;
 }
+
+/* Pseudo-Classes */
+
+/* When the cursor hovering */
+button:hover{
+    background-color:pink;
+}
+
+/* When the cursor click the class */
+button:active{
+    color: cornflowerblue;
+}
+
+/* Giving the css more spesific */
+/* 2n means even */
+section:nth-of-type(2n){ 
+    background-color:rgb(60, 130, 187);
+}
