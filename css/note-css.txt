@@ -26,3 +26,11 @@ How to get colors:
 
 <!-- 70,71,72,73.(Selectors) -->
 Syntax and description in selector file.
+
+<!-- 79. Specificity -->
+ID > Class > Pseudo Elements / Classes.
+1 ID > 5 Class > 20 Pseudo Elements / Classes.
+
+<!-- 81. Inheritance -->
+if the elements didnt have any spesificity then it will inherit.
+* Not all attribute can be inherited.
