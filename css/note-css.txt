@@ -49,3 +49,19 @@ Shorthand for padding :
 - vertical | horizontal : padding : 40px 10px
 - top | horizontal | bottom : 10px 20px 10px
 - top | right | bottom | left : 5px 0 20px 10px
+
+<!-- 85. Box Model, Margin -->
+Shorthand for margin :
+- Applying for all four sides : padding: 10px
+- vertical | horizontal : padding : 40px 10px
+- top | horizontal | bottom : 10px 20px 10px
+- top | right | bottom | left : 5px 0 20px 10px
+
+<!-- 85. Box Model, Display -->
+Type of display :
+1. Inline: The element will fit with the other elements.
+* if the element inline, the width and height is ignored.
+* if padding was added, the padding will not be respected by the other elements.
+2. Block: The element will take a new line and fill all the line.
+3. Inline-block: The element will act like inline but weight and height will be respected.
+4. None
