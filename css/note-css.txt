@@ -65,3 +65,12 @@ Type of display :
 2. Block: The element will take a new line and fill all the line.
 3. Inline-block: The element will act like inline but weight and height will be respected.
 4. None
+
+<!-- 85. CSS Units -->
+Relative units :
+1. Percentage : this css units is really helpfull because the units can measure the parent size or the size of its elements.
+2. Em's : this css units relativly following the size of the parent font size. But it can be applied to another style.
+* 1 Em's equals the font size of the parents. 2 Em's equals to twice of the font size of the parent.
+* for nesting it will be a snowball effect.
+3. Rem's (Root Em's): this css units relativly following the size of the root html elements.
+* if root font-size 20 px, then 1 Rem's is 20px, and 2 Rem's is 40px, etc.
