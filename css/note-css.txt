@@ -86,3 +86,6 @@ Opacity is responsible of the opacity of all the elements.
 3. Absolute = The position relative to the closest positioned ancestor. (Not a normal flow)
 4. Fixed = This position will not changing following of the viewport. (Not a normal flow)
 5. Sticky = This position will stick the element to its nearest ancestors that has scrolling mechanism.
+
+<!-- 95. CSS Transitions -->
+Syntax = Property Name | Duration | Timing Function | Delay.
