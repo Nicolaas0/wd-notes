@@ -74,3 +74,15 @@ Relative units :
 * for nesting it will be a snowball effect.
 3. Rem's (Root Em's): this css units relativly following the size of the root html elements.
 * if root font-size 20 px, then 1 Rem's is 20px, and 2 Rem's is 40px, etc.
+
+<!-- 93. Opacity & Alpha Channel-->
+Alpha channel is responsible for the opacity of the elements color.
+* Example : rgba(r,g,b,a); a range = 0 > 1
+Opacity is responsible of the opacity of all the elements.
+
+<!-- 94. CSS Positions -->
+1. Static = The position will be static / stay. (Normal flow)
+2. Relative = The position relative to itself based on the value of the top / bottom / left/ right.(Normal flow)
+3. Absolute = The position relative to the closest positioned ancestor. (Not a normal flow)
+4. Fixed = This position will not changing following of the viewport. (Not a normal flow)
+5. Sticky = This position will stick the element to its nearest ancestors that has scrolling mechanism.
