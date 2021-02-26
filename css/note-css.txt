@@ -89,3 +89,11 @@ Opacity is responsible of the opacity of all the elements.
 
 <!-- 95. CSS Transitions -->
 Syntax = Property Name | Duration | Timing Function | Delay.
+
+<!-- 96. CSS Transform-->
+There are 4 types of transformation :
+1. scale(), syntax = scale(x,y); Scale is for transform the size of the elements.
+2. translate(), syntax = translate(x,y); Translate is to move the elements.
+3. rotate(), syntax = rotate(a); Rotate is for rotating elements.
+4. skew(), syntax = skew(x,y); Skew is for skewing elements.
+
