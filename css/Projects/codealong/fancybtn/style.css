@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+body{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    height: 100vh;
+    background-color:#fdfcdc;
+}
+
+#btn{
+    background: none;
+    border: 3px #f07167 solid;
+    font-size: 1.5rem;
+    padding: 10px 10px;
+    color: #00afb9;
+    font-family: 'Rubik';
+    cursor: pointer;
+    outline:none;
+    transition: all 1s;
+}
+
+#btn:hover{
+    transform:translateY(-10px);
+    box-shadow: 5px 10px #f08080;
+}
+
+#btn:active{
+    color: #f07167;
+    border-radius:50%;
+}
