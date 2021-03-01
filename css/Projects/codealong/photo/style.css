@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@600&display=swap");
+
+body {
+  margin: 0;
+}
+
+img {
+  width: 30%;
+  margin: calc(10% / 6);
+}
+
+header {
+  margin: 0 calc(10% / 6);
+  padding-top: 1em;
+}
+
+#header {
+  font-family: "Baloo 2";
+  font-size: 1.5em;
+}
