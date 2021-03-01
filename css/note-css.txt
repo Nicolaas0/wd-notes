@@ -97,3 +97,12 @@ There are 4 types of transformation :
 3. rotate(), syntax = rotate(a); Rotate is for rotating elements.
 4. skew(), syntax = skew(x,y); Skew is for skewing elements.
 
+<!-- 98. CSS Background-->
+background-image; to set a background with an image.
+background-size: cover = make the image as large/small as possible without streching the picture but crop if needed.
+                 contain = make the image as large/small as possible without streching or cropping the picture.
+background-repeat; to control the repeating background-image;
+background-position; to control the part position of the background.
+
+The background code can be shorthanded by putting all the attribute in the "background:" but only for background size and position, it have to be written with slash / "/", Example : center/cover.
+We can apply background more than one; just put "," in the syntax and add the url of the background.
