@@ -109,3 +109,24 @@ We can apply background more than one; just put "," in the syntax and add the ur
 
 <!-- FLEXBOX SESSION IMPORTANT! -->
 
+<!-- 103. Flexbox -->
+Flexbox is one-dimensional layout method for laying out items in a rows or columns. Items flex to fill additional space and shrink to fit into smaller spaces. src: MDN.
+Flex model: There is Main axis and Cross axis.
+
+<!-- 104. Flex-direction-->
+There are Flex-direction:
+1.Row = Change into the row.
+2.Reverse-row = The oposite of Row.
+3. Column = Change into column.
+4. Reverse-Column = The oposite of column.
+
+<!-- 105. Justify-content -->
+Justify content work depends the flex-direction. Changing the "main axis".
+There are Justify-content:
+1.Flex-start: Will move to the start of the main axis.
+2.Flex-end: Will move to the ending of the main axis.
+3. Space-between: It will give the evenly space "between the elements".
+4. Space-around: It will give same amount of space "around the elements".
+5. Space-evenly: It will give the same amount of space for "the container and the elements".
+
+
