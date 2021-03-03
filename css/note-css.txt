@@ -139,3 +139,14 @@ There are Align-items:
 2.Flex-end: Align to the end of the cross axis.
 3.Center: Move to the center.
 4.Baseline: Aligning to the center of the elements.
+
+<!-- 108. Align-Content & Align-Self-->
+Align content is to control the distributed space in the cross axis.
+There are Align-Content:
+1.Flex-start: Will move to the start of the cross axis.
+2.Flex-end: Will move to the ending of the cross axis.
+3. Space-between: It will give the evenly space "between the elements".
+4. Space-around: It will give same amount of space "around the elements".
+5. Space-evenly: It will give the same amount of space for "the container and the elements".
+
+Align-self it to control the cross axis of one spesific elements.
