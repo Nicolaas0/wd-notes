@@ -129,4 +129,13 @@ There are Justify-content:
 4. Space-around: It will give same amount of space "around the elements".
 5. Space-evenly: It will give the same amount of space for "the container and the elements".
 
+<!-- 106. Flex-wrap -->
+Sets the flex items to wrap in one line / can be wrapped into multiple lines.
 
+<!-- 107. Align-items -->
+Changin the "cross axis".
+There are Align-items:
+1.Flex-start: Align to the start of the cross axis.
+2.Flex-end: Align to the end of the cross axis.
+3.Center: Move to the center.
+4.Baseline: Aligning to the center of the elements.
