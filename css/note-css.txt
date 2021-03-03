@@ -106,3 +106,6 @@ background-position; to control the part position of the background.
 
 The background code can be shorthanded by putting all the attribute in the "background:" but only for background size and position, it have to be written with slash / "/", Example : center/cover.
 We can apply background more than one; just put "," in the syntax and add the url of the background.
+
+<!-- FLEXBOX SESSION IMPORTANT! -->
+
