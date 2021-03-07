@@ -19,6 +19,22 @@ ul,li {
 h1{
     color:coral;
 }
+@media(min-width:400px){
+    h1{
+        color:brown;
+    }
+}
 
+@media(max-width:464px){
+    a{
+        display:none;
+    }
+}
+
+@media(min-width:800px){
+    h1{
+        color:red;
+    }
+}
 
 
