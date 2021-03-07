@@ -168,3 +168,13 @@ Syntax: flex-shrink: <width>.
 4. Two value, unitless (flex-grow flex-shrink): flex: 2 2;
 5. Two values, (flex-grow, flex-basis): flex:2 30%;
 6. Three values, (flex-grow, flex-shrink, flex-basis): flex:2, 2, 30px;
+
+<!-- 111. Responsive design & Media queries -->
+Media queries determine display in some condition.
+syntax: @media (condition/property){
+    property:value;
+    ..
+    ..
+}
+the condition/property can be insert more than one, onyl add "and" to insert more than one, example:
+@media (property) and (property){......}
