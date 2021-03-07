@@ -150,3 +150,21 @@ There are Align-Content:
 5. Space-evenly: It will give the same amount of space for "the container and the elements".
 
 Align-self it to control the cross axis of one spesific elements.
+
+<!-- 109.Flex-grow,Flex-shrink,Flex-Basis -->
+Flex-grow, is sub property of flexible box, that defines the ability of flex items to grow if necessary.
+syntax : flex-grow: <number>; example, if the number is 1, it will set as the equal size inside the container. if the number is 2 it set twice of the size.
+
+Flex-shrink, is sub propert of flexible box, that determines how much the flex item will shrink relative to the flex items.
+Syntax: flex-shrink: <number>.
+
+Flex-basis, is sub property of flexible box, it specifies the initial size of the flex item, before any avaliable space is distributed acording to the flex factors.
+Syntax: flex-shrink: <width>.
+
+<!-- 110. Flex shorthand -->
+1. Keyword values: flex:auto, flex:initial, flex:none.
+2. One Value, unitless number (Flex-grow) : flex: 2.
+3. One value, width/height (flex-basis) : flex: 50%, flex:10em.
+4. Two value, unitless (flex-grow flex-shrink): flex: 2 2;
+5. Two values, (flex-grow, flex-basis): flex:2 30%;
+6. Three values, (flex-grow, flex-shrink, flex-basis): flex:2, 2, 30px;
