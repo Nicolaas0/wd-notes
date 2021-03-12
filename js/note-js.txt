@@ -1,0 +1,21 @@
+<!-- 142. Primitive type & Console-->
+The basic building blocks:
+1. String
+2. Number
+3. Boolean 
+4. Null
+5.Undefined
+
+R E P L = Read Evaluate Print Loop
+
+<!-- Javascript Numbers -->
+Math Operation:
+
+5 + 5;
+5 - 5;
+5 * 5;
+5 % 5; //This is a modulo / remainder.
+5 / 5;
+
+NaN = Not a Number, its not a number but javascript consider it as a number;
+example = 0/0 = NaN; 1+NaN = NaN;
