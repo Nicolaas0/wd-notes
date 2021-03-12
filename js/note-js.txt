@@ -19,3 +19,10 @@ Math Operation:
 
 NaN = Not a Number, its not a number but javascript consider it as a number;
 example = 0/0 = NaN; 1+NaN = NaN;
+
+<!-- Javascriptt Variables -->
+Variable is a name to store a value.
+Variable can be used later, and updated.
+syntax = (let / const / var) variablename = value;
+
+to recall the variable it only needs the name of the variables.
