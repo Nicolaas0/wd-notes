@@ -33,3 +33,9 @@ Var is the oldest variable keyword. Works just like let.
 
 <!-- Booleans -->
 Booleans only store True or False value.
+
+<!-- Variables naming and Conventions-->
+Rules for naming variables:
+1. No space.
+2. Cannot start with a digit.
+3. Camel Case. all word capitalized unless the first word.
