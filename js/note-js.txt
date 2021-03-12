@@ -26,3 +26,10 @@ Variable can be used later, and updated.
 syntax = (let / const / var) variablename = value;
 
 to recall the variable it only needs the name of the variables.
+
+<!-- Const & Var -->
+Const cannot be change the value.
+Var is the oldest variable keyword. Works just like let.
+
+<!-- Booleans -->
+Booleans only store True or False value.
