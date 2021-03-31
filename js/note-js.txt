@@ -39,3 +39,11 @@ Rules for naming variables:
 1. No space.
 2. Cannot start with a digit.
 3. Camel Case. all word capitalized unless the first word.
+
+<!-- String -->
+String represents text. Each string is indexed (a positional number).
+example of indexed string :
+LAPTOP
+012345
+
+There are called string method. the syntax is string.method(), if we are using "()" it will executing the method.
