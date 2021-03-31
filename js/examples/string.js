@@ -51,3 +51,15 @@ string.replace('Holo', 'Hili'); //it will replace the "Holo" with the "Hili"
 
 //Template Literals
 let template = `I just bought ${1 + 4 + 3} Watermelons` // the output will be "I just bought 8 Watermelons"
+
+//Another examples:
+let things = "Watermelons";
+let person = "Nicolaas";
+let verb = "bought";
+let qty = "5";
+let price = "1500";
+
+let template = `${person} just ${verb} an ${things} and the total price is ${qty * price}`;
+
+//The template created so u dont have to use :
+let tempalate2 = person + " " + just + " " + "........";
