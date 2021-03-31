@@ -63,3 +63,24 @@ let template = `${person} just ${verb} an ${things} and the total price is ${qty
 
 //The template created so u dont have to use :
 let tempalate2 = person + " " + just + " " + "........";
+
+//Math Object
+//Here the example of Math Object in javascript:
+
+Math.PI; //it will return PI number which is 3.14159265359
+
+Math.random(); //it will return in range of 0 - 1.
+
+Math.round(); //it will return the number that have been rounded.
+
+Math.pow(); //it will power the number, example :
+Math.pow(2, 5); //it will return 16 because 2 power 5;
+
+Math.abs(); //it will make the number absoulte / from minus to positive, example :
+Math.abs(-10); // the output is 10.
+
+Math.floor(); //it will remove the decimal. Example :
+Math.floor(2.999999); //the output is 3.
+
+//Math can also be combined, Example :
+Math.floor(Math.random()); //it will remove the decimal in the random number from 0-1 range.
