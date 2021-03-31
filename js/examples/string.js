@@ -37,4 +37,17 @@ string.trim(); //trim all the whitespace
 //We can also combine the method like
 string.trim().toUpperCase();
 
+// Method that really need an arguments
+let string = "Holo is the dog name";
+
+//indexOf();
+string.indexOf(0); //the input will be "H" because the argument was set to 0 / the first letter of the variable
+
+//slice();
+string.slice(6, 12); //the input will be "is the" because the arguments start in the letter "i" and end in the letter "e"
+
+//replace();
+string.replace('Holo', 'Hili'); //it will replace the "Holo" with the "Hili"
+
+
 
