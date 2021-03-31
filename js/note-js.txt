@@ -52,3 +52,10 @@ syntax = string.method(arg);
 
 Template Literals create a string that can be evaluated. Template literals using back-ticks.
 In the template there are "${}" inside the curly braces it will be evaluated as a javascript.
+
+Null : 1. "Intentional absence of any value"
+       2. Must be assigned.
+
+Undefined : Variable that do not have an assigned value are undefined.
+
+Math object is contains properties and method for mathematical constans and functions.
