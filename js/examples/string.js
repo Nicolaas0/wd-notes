@@ -49,4 +49,5 @@ string.slice(6, 12); //the input will be "is the" because the arguments start in
 //replace();
 string.replace('Holo', 'Hili'); //it will replace the "Holo" with the "Hili"
 
-
+//Template Literals
+let template = `I just bought ${1 + 4 + 3} Watermelons` // the output will be "I just bought 8 Watermelons"
