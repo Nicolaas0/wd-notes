@@ -50,4 +50,3 @@ string.slice(6, 12); //the input will be "is the" because the arguments start in
 string.replace('Holo', 'Hili'); //it will replace the "Holo" with the "Hili"
 
 
-
