@@ -45,5 +45,6 @@ String represents text. Each string is indexed (a positional number).
 example of indexed string :
 LAPTOP
 012345
-
 There are called string method. the syntax is string.method(), if we are using "()" it will executing the method.
+In the method there are are arguments. arguments usually for specifying for the method.
+syntax = string.toLowerCase(arg);
