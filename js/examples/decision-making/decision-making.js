@@ -29,3 +29,10 @@ if (age >= 10) {
 } else if(age <= 10) {
     console.log('You are still a kid');
 }
+
+//ELSE statement
+if (age !== 10) {
+    console.log('You are not ten!') //True
+} else {
+    console.log('You are a ten'); //False
+}
