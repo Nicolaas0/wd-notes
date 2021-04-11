@@ -68,3 +68,6 @@ console.log(msg) = outputs the message to the web console.
 alert(msg) = give alert box in the middle top of the web.
 prompt(msg) = give prompt box in the middle top of the web.
 
+IF statement = IF statement will work if the its met the condition/true.
+ELSE IF statement = ELSE IF statement is the same as IF statement, but there are more condition if the first condition didnt met.
+ELSE statement = as same as the IF statement but there are statement if its false.
