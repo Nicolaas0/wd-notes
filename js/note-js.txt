@@ -64,3 +64,7 @@ Math object is contains properties and method for mathematical constans and func
 == is for comparing the value, and will treat the both of argument the same type.
 === is for comparing the type.
 
+console.log(msg) = outputs the message to the web console.
+alert(msg) = give alert box in the middle top of the web.
+prompt(msg) = give prompt box in the middle top of the web.
+
