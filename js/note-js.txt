@@ -59,3 +59,8 @@ Null : 1. "Intentional absence of any value"
 Undefined : Variable that do not have an assigned value are undefined.
 
 Math object is contains properties and method for mathematical constans and functions.
+
+<!--- Decision Making --->
+== is for comparing the value, and will treat the both of argument the same type.
+=== is for comparing the type.
+
