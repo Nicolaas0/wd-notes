@@ -36,3 +36,16 @@ if (age !== 10) {
 } else {
     console.log('You are a ten'); //False
 }
+
+//Nested Conditionals
+const thing = 'Sandwich';
+
+if (thing.endsWith('h')) {
+    if (thing.startsWith('s')) {
+        console.log('OH i knew it, it is Sandwich!');
+    }
+} else {
+    console.log('I dont know what is that thing');
+}
+
+//Notes : the first IF is checking if the thing is end with 'h', if its true, it will continue checking if its start with 's', and the else if for the first IF.
