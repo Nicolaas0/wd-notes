@@ -76,3 +76,13 @@ if (_name[0] == _name[0].toUpperCase || _name[0] == _name[0].toLowerCase) {
 } else if (_name.length == ' ' || _name.length == null) {
     alert('You are so shy!');
 }
+
+    //NOT
+null; //null = falsy value
+!null; //True, because it means not null / not false or we can say its true
+    //Cases
+var input = prompt('Fill this input');
+
+if (input.length !== null) {
+    alert('Thanks for your response!')
+}
