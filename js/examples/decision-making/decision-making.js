@@ -49,3 +49,17 @@ if (thing.endsWith('h')) {
 }
 
 //Notes : the first IF is checking if the thing is end with 'h', if its true, it will continue checking if its start with 's', and the else if for the first IF.
+
+//Logical Operator
+    //AND
+1 === 1 && 5 < 7; //true && true = true.
+1 === 1 && 5 > 7; //true && false = false.
+1 === "1" && 5 <= 7; //false && false = false.
+    //Cases
+var pass = prompt('Enter your password');
+
+if (pass.length < 10 && pass.indexOf(' ') == -1) {
+    alert('Your password is good.');
+} else {
+    alert('You have a bad password');
+}
