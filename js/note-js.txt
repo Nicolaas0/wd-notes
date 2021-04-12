@@ -79,3 +79,6 @@ Falsy values:
 4. ""(Empty string)
 5. undefined
 6. NaN (Not a Number)
+
+There are 3 logical operator :
+1. && / AND = 1 0 = false, 1 1 = true, 0 0 = false. Both sides have to be true / false.
