@@ -86,3 +86,17 @@ var input = prompt('Fill this input');
 if (input.length !== null) {
     alert('Thanks for your response!')
 }
+
+//Switch Case
+switch (Math.floor(Math.random() * 3)) {
+    case 1:
+        null;
+        break;
+    case 2:
+        null;
+        break;
+    case 3:
+        null;
+    default:
+        break;
+}
