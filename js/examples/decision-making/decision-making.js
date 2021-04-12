@@ -63,3 +63,16 @@ if (pass.length < 10 && pass.indexOf(' ') == -1) {
 } else {
     alert('You have a bad password');
 }
+
+    //OR
+1 === 1 && 5 < 7; //true && true = true.
+1 === 1 && 5 > 7; //true && false = true.
+1 !== 1 && 5 == '5'; //false && false = false;
+    //Cases
+var _name = prompt('Enter yourname');
+
+if (_name[0] == _name[0].toUpperCase || _name[0] == _name[0].toLowerCase) {
+    alert('Nice meet you!');
+} else if (_name.length == ' ' || _name.length == null) {
+    alert('You are so shy!');
+}
