@@ -92,3 +92,7 @@ Array Methods:
 2. Pop: remove the value from the end.
 3. Shift: remove the value from the start.
 4. Unshift: add value from the start.
+5. Concat: Merge arrays.
+6. Includes: Check if there is an specified value in the array. it will return true/false.
+7. IndexOf: Just like indexOf() in the string.
+8.
