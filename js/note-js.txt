@@ -1,4 +1,4 @@
-<!-- 142. Primitive type & Console-->
+<!-- Primitive type & Console-->
 The basic building blocks:
 1. String
 2. Number
@@ -87,6 +87,7 @@ There are 3 logical operator :
 
 Switch case is for replacing the nested else if.
 
+<!--- Arrays --->
 Array Methods:
 1. Push: add the value to the end.
 2. Pop: remove the value from the end.
