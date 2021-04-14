@@ -11,3 +11,12 @@ greet('Nicolaas');
 function multiplication(a, b, c) { console.log(a * b * c); }
 //Executing the function
 multiplication(3, 4, 5);
+
+//Return function
+function plus(a, b) {
+    return a + b;
+}
+
+plus(11, 23); // the output will be return the result of the function.
+//or we can use it for the variables to capture the value from return
+let result = plus(11, 23); // now the value of the result variable is 34.
