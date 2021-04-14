@@ -102,3 +102,7 @@ if you are comparing arrays it will always return false. because each array have
 
 When array delcared as a const, it still can be change using method. But if you are changing but not using the method it will return error because it is const.
 
+Objects is collection of a property, to access using key not using index.
+
+There are 2 ways for accessing objects:
+Using bracket notation and using "." (dot).
