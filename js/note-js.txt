@@ -95,4 +95,5 @@ Array Methods:
 5. Concat: Merge arrays.
 6. Includes: Check if there is an specified value in the array. it will return true/false.
 7. IndexOf: Just like indexOf() in the string.
-8.
+8. Slice: Get a slice of an array / take a copy value from the array.
+9. Splice: Splice can add value, replace and delete value.
