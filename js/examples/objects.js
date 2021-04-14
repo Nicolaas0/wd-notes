@@ -8,5 +8,9 @@ const myself = {
 }
 
 //accessing object
+//Using bracket notation
+myself["age"]; //output: 12
+myself['favMovie'][1];//output: 'Friendzone'
+//Using "."/dot
 myself.firstName; // output: 'Albert'
 myself.favMovie[1]; //output:'Friendzone'
