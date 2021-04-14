@@ -36,5 +36,5 @@ const profile = [
     username: "npapap123",
     email: "loremis@gmail.com",
     password: "some12444",
-  },
+  }
 ];
