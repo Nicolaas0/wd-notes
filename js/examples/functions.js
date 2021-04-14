@@ -7,7 +7,7 @@ first();
 function greet(name) {console.log('Hi' + name);}
 //Executing the function
 greet('Nicolaas');
-//one more example
+//one more example, this is more than one arguments
 function multiplication(a, b, c) { console.log(a * b * c); }
 //Executing the function
 multiplication(3, 4, 5);
