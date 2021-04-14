@@ -106,3 +106,7 @@ Objects is collection of a property, to access using key not using index.
 
 There are 2 ways for accessing objects:
 Using bracket notation and using "." (dot).
+
+All the key that we created will turn into string, if we are creating a key that using number it will converted to string, same as booelans it will converted into strings.
+
+If you want to access a value that is an variable, we have to use bracket notation, because if we use dot it will not work at all.
