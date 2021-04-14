@@ -31,6 +31,8 @@ arr2.reverse(); //output: ['Ho','Hi'];
 //slice()
 arr2.slice(0, 1); //output: ['Hi', 'Ho'];
 //splice()
-arr2.splice(); //
+arr2.splice(0, 2);//for deleting //output:[];
+arr2.splice(1, 0, 'Hu'); //for add //output:['Hi', 'Ho', 'Hu']
+arr2.splice(0, 1, 'Hu'); //for replacing //output:['Hi', 'Hu']
 //sort()
 arr2.sort(); //sorting from the alphabets
