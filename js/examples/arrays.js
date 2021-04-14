@@ -36,3 +36,10 @@ arr2.splice(1, 0, 'Hu'); //for add //output:['Hi', 'Ho', 'Hu']
 arr2.splice(0, 1, 'Hu'); //for replacing //output:['Hi', 'Hu']
 //sort()
 arr2.sort(); //sorting from the alphabets
+
+//Nested arrays
+
+const arr3 = [[1, 2, 3], [4, 5, 6], ['Nicolaas', 'Nadine']];
+//acsessing the arrays
+arr3[1][1]; //output:5
+arr3[2][0]; //output: 'Nicolaas'
