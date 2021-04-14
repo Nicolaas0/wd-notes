@@ -14,3 +14,7 @@ myself['favMovie'][1];//output: 'Friendzone'
 //Using "."/dot
 myself.firstName; // output: 'Albert'
 myself.favMovie[1]; //output:'Friendzone'
+
+// add & changin properties in object
+myself.age = 18; //changin age value
+myself.favFodd = 'Fried Rice'; //add properties
