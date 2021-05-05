@@ -20,6 +20,7 @@ const fakeRequestPromise = (url) => {
                 resolve(`Here is your fake data from ${url}`)
             }
         }, delay)
+ 
     })
 }
 
