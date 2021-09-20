@@ -1,0 +1,20 @@
+GET: 
+1. Used to retrieve data.
+2. Data is sent via query string
+3. Information is plainly visible in url
+4. Limited amount of data can be sent
+
+POST:
+1. Used to post data to the server.
+2. Used to Write / Create / Update.
+3. Data is sent via request body, not a query string.
+4. Can send any sort of data (JSON).
+
+RESTful Routes:
+GET /comments = getting all the list of the comment. INDEX ROUTE
+POST /comments = creating a comment. CREAT ROUTE
+
+GET /comments/:id = get a comment with spesific id. SHOW ROUTE
+PATCH /comments/:id = update comment with spesific id. UPDATE ROUTE
+
+DELETE /comments/:id = destroy comment with spesific id. DELETE ROUTE

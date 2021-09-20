@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New Product</title>
+  </head>
+  <body>
+    <form action="/farms/<%= id%>/products" method="POST">
+      <h3>Name of Product</h3>
+      <input name="name" type="text" />
+      <h3>Price</h3>
+      <input name="price" type="number" />
+      <h3>Categories</h3>
+      <select name="season">
+        <option value="Winter">Spring</option>
+        <option value="Fall">Fall</option>
+        <option value="Summer">Summer</option>
+        <option value="Winter">Winter</option>
+      </select>
+
+      <button style="display: block; margin: 1rem 0">Submit</button>
+    </form>
+    <a href="/products">Back to home</a>
+  </body>
+</html>
