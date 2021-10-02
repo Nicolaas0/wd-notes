@@ -1,23 +1,54 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <h2>Create new Camp</h2>
-    <form action="/campgrounds/<%=campgrounds._id  %>?_method=PUT " method="POST">
-      <div>
-        <label for="title">Title</label>
-        <input type="text" name="campground[title]" value="<%= campgrounds.title %> "/>
-      </div>
-      <div style="margin-top: 1rem;">
-        <label for="location">Location</label>
-        <input type="text" name="campground[location]" value="<%= campgrounds.location %>" />
-      </div>
-      <button>Submit</button>
-    </form>
-  </body>
-</html>
+<% layout('./layouts/boilerplate') %>
+<h2>Edit Camp</h2>
+<form
+  action="/campgrounds/<%=campgrounds._id  %>?_method=PUT "
+  method="POST"
+  class=""
+>
+  <div>
+    <label for="title" class="form-label">Title</label>
+    <input
+      type="text"
+      class="form-control"
+      name="campground[title]"
+      value="<%= campgrounds.title %> "
+    />
+  </div>
+  <div style="margin-top: 1rem">
+    <label for="location" class="form-label">Location</label>
+    <input
+      type="text"
+      class="form-control"
+      name="campground[location]"
+      value="<%= campgrounds.location %>"
+    />
+  </div>
+  <div style="margin-top: 1rem">
+    <label for="location" class="form-label">Image</label>
+    <input
+      type="text"
+      class="form-control"
+      name="campground[image]"
+      value="<%= campgrounds.image %>"
+    />
+  </div>
+  <div style="margin-top: 1rem">
+    <label for="location" class="form-label">Price</label>
+    <input
+      type="number"
+      class="form-control"
+      name="campground[price]"
+      value="<%= campgrounds.price %>"
+    />
+  </div>
+  <div style="margin-top: 1rem">
+    <label for="location" class="form-label">Description</label>
+    <input
+      type="text"
+      class="form-control"
+      name="campground[description]"
+      value="<%= campgrounds.description %>"
+    />
+  </div>
+  <button class="btn btn-primary mt-3">Submit</button>
+</form>

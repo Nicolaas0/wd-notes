@@ -1,23 +1,26 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <h2>Create new Camp</h2>
-    <form action="/campgrounds" method="POST">
-      <div>
-        <label for="title">Title</label>
-        <input type="text" name="campground[title]" />
-      </div>
-      <div style="margin-top: 1rem;">
-        <label for="location">Location</label>
-        <input type="text" name="campground[location]" />
-      </div>
-      <button>Submit</button>
-    </form>
-  </body>
-</html>
+<% layout('./layouts/boilerplate') %>
+<h2>Create new Camp</h2>
+<form action="/campgrounds" method="POST" class="val-form">
+  <div>
+    <label for="title" class="form-label">Title</label>
+    <input type="text" class="form-control" name="campground[title]" required/>
+  </div>
+  <div style="margin-top: 1rem">
+    <label for="location" class="form-label">Location</label>
+    <input type="text" class="form-control" name="campground[location]" required/>
+  </div>
+    <div style="margin-top: 1rem">
+    <label for="image" class="form-label">Image URL</label>
+    <input type="text" name="campground[image]" class="form-control" required/>
+  </div>
+    <div style="margin-top: 1rem">
+    <label for="price" class="form-label">Price</label>
+    <input type="text" name="campground[price]" class="form-control" required/>
+  </div>
+    </div>
+    <div style="margin-top: 1rem">
+    <label for="location" class="form-label">Description</label>
+    <input type="text" name="campground[description]" class="form-control" required/>
+  </div>
+  <button class="btn btn-primary mt-3">Submit</button>
+</form>

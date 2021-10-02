@@ -1,20 +1,70 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <h2><%= campgrounds.location %></h2>
-    <h3><%= campgrounds.title %></h3>
-    <a href="/campgrounds/<%= campgrounds._id %>/edit ">Edit</a>
+<% layout('./layouts/boilerplate') %>
+<div class="row">
+  <div class="col-6 offset-3">
+    <div class="card mb-3"></div>
+    <img src="<%= campgrounds.image %>" style="width: 500px" />
+    <div class="card-body">
+      <div class="card-title"><h3><%= campgrounds.title %></h3></div>
+      <div class="card-text"><h2><%= campgrounds.location %></h2></div>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item text-muted">
+        <p><%= campgrounds.description %></p>
+      </li>
+      <li class="list-group-item"><h4><%= campgrounds.price %>$</h4></li>
+    </ul>
+    <div class="card-body">
+      <a
+        class="d-block btn btn-warning"
+        href="/campgrounds/<%= campgrounds._id %>/edit "
+        >Edit</a
+      >
+      <form
+        action="/campgrounds/<%= campgrounds._id %>?_method=DELETE"
+        method="POST"
+      >
+        <button class="btn btn-danger">Delete</button>
+      </form>
+    </div>
     <form
-      action="/campgrounds/<%= campgrounds._id %>?_method=DELETE"
+      action="/campgrounds/<%= campgrounds._id %>/reviews"
       method="POST"
+      class="validated-form"
+      novalidate
     >
-      <button>Delete</button>
+      <div class="mb-3">
+        <label for="rating" class="form-label">Rating</label>
+        <input
+          type="range"
+          name="review[rating]"
+          id="rating"
+          min="1"
+          max="5"
+          class="form-range"
+        />
+      </div>
+      <div class="mb-3">
+        <label class="form-label" for="body">Review</label>
+        <textarea
+          class="form-control"
+          name="review[body]"
+          id="body"
+          cols="30"
+          rows="3"
+          required
+        ></textarea>
+        <div class="valid-feedback">Looks good!</div>
+      </div>
+      <button class="btn btn-success mb-3">Submit</button>
     </form>
-  </body>
-</html>
+    <% for(let review of campgrounds.reviews){ %> 
+    <div class="mb-3">
+      <p>Rating :<%= review.rating %> </p>
+      <p>Body : <%= review.body %> </p>
+      <form action="/campgrounds/<%= campgrounds._id %>/reviews/<%= review._id %>?_method=DELETE" method="POST">
+      <button class="btn btn-sm btn-danger">Delete</button>
+    </form>
+    <% } %> 
+    </div>
+  </div>
+</div>
